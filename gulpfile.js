@@ -30,7 +30,7 @@ gulp.task('imagemin', () =>
 
 // Compile sass & autoprefix
 gulp.task('sass', function() {
-  return gulp.src(['src/sass/*.scss']).pipe(sass().on('error', sass.logError)).pipe(autoprefixer({browsers: ['last 2 versions'], cascade: false})).pipe(gulp.dest('src/css')).pipe(browserSync.stream());
+  return gulp.src(['src/sass/*.scss']).pipe(sass().on('error', sass.logError)).pipe(autoprefixer({browsers: ['last 2 versions'], cascade: false})).pipe(gulp.dest('dist/css')).pipe(browserSync.stream());
 });
 
 // -- Watch & serve tasks --
