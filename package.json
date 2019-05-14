@@ -1,7 +1,7 @@
 {
-  "name": "simpleboiler",
-  "version": "1.0.0",
-  "description": "gulp boilerplate",
+  "name": "gulp-boilerplate",
+  "version": "2.0.0",
+  "description": "new project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +12,13 @@
   "author": "san00",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-imagemin": "^5.0.3",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1"
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-uglify-es": "^1.0.4"
   }
 }
